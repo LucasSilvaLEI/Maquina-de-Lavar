@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/Detergente.v -lang verilog -prj MAQUINALAVAR -o Detergente.spl -module Detergente -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Detergente.spl /home/ise/MAQUINALAVAR/Detergente.sym 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/Botao.v -lang verilog -prj MAQUINALAVAR -o Botao.spl -module Botao -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Botao.spl /home/ise/MAQUINALAVAR/Botao.sym 

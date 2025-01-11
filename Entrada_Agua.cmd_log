@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/Entrada_Agua.v -lang verilog -prj MAQUINALAVAR -o Entrada_Agua.spl -module Entrada_Agua -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Entrada_Agua.spl /home/ise/MAQUINALAVAR/Entrada_Agua.sym 

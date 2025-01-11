@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/Centrifugacao.v -lang verilog -prj MAQUINALAVAR -o Centrifugacao.spl -module Centrifugacao -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Centrifugacao.spl /home/ise/MAQUINALAVAR/Centrifugacao.sym 

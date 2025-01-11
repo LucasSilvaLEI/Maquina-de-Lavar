@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/Atraso_Inic.v -lang verilog -prj MAQUINALAVAR -o atraso_inicio.spl -module atraso_inicio -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 atraso_inicio.spl /home/ise/MAQUINALAVAR/atraso_inicio.sym 

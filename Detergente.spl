@@ -1,0 +1,9 @@
+[Inputs]
+clock
+start
+[Outputs]
+liberar_detergente
+[BiDir]
+[ATTRIBUTES]
+VeriModel Detergente
+

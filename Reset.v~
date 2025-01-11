@@ -1,0 +1,11 @@
+`timescale 1ns / 1ps
+
+module Reset_Generator(
+    input wire clk,
+    output reg reset
+);
+    initial begin
+        reset = 1; // Ativa o reset no início
+        #10 reset = 0; // Desativa o reset após 10 ns
+    end
+endmodule

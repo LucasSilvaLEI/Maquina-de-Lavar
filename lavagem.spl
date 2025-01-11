@@ -1,0 +1,9 @@
+[Inputs]
+clock
+start
+[Outputs]
+lavagem_ativa
+[BiDir]
+[ATTRIBUTES]
+VeriModel lavagem
+

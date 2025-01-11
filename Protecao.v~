@@ -1,0 +1,18 @@
+`timescale 1ns / 1ps
+module Protecao(
+    input wire clk,
+    input wire reset,
+    input wire energia,
+    input wire [3:0] estado, // Estado atual da máquina
+    output reg [3:0] estado_registrado // Estado salvo antes da queda de energia
+);
+    always @(posedge clk or negedge reset) begin
+        if (!reset) begin
+            estado_registrado <= 4'b0000; // Inicializa o estado registrado com o valor de reset
+        end else if (!energia) begin
+            estado_registrado <= estado; // Salva o estado quando há falta de energia
+        end else begin
+            estado_registrado <= estado_registrado; // Mantém o estado salvo se a energia estiver presente
+        end
+    end
+endmodule

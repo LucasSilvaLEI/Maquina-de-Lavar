@@ -1,0 +1,9 @@
+[Inputs]
+clock
+comecar
+[Outputs]
+entrada_agua
+[BiDir]
+[ATTRIBUTES]
+VeriModel Entrada_Agua
+

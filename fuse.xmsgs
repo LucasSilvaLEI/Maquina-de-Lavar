@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/ise/MAQUINALAVAR/TESTE.v" Line 18: Port <arg fmt="%s" index="1">estado_atual</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/home/ise/MAQUINALAVAR/Maquinadelavar.v" Line 80: Target &lt;<arg fmt="%s" index="1">porta_fechada</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+</messages>
+

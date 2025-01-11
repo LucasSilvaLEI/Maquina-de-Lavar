@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/Protecao.v -lang verilog -prj MAQUINALAVAR -o Protecao.spl -module Protecao -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Protecao.spl /home/ise/MAQUINALAVAR/Protecao.sym 

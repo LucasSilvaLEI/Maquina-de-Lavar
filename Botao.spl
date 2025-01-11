@@ -1,0 +1,10 @@
+[Inputs]
+clk
+reset
+botao_iniciar
+[Outputs]
+pulso_inicio
+[BiDir]
+[ATTRIBUTES]
+VeriModel Botao
+

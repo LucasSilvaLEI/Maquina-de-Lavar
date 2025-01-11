@@ -1,0 +1,9 @@
+[Inputs]
+clock
+start
+[Outputs]
+enxaguar_ativo
+[BiDir]
+[ATTRIBUTES]
+VeriModel Enxaguar
+

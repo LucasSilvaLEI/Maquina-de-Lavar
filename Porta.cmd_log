@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/Porta.v -lang verilog -prj MAQUINALAVAR -o Porta.spl -module Porta -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Porta.spl /home/ise/MAQUINALAVAR/Porta.sym 

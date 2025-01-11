@@ -1,0 +1,23 @@
+`timescale 1ns / 1ps
+
+module aquecimento(
+    input wire clock,
+    input wire start,
+    output reg aquecimento
+);
+    parameter TEMPO_AQUECIMENTO = 8;  // Tempo para o aquecimento
+    reg [3:0] contador;  // Contador para o tempo de aquecimento
+   always @(posedge clock) begin
+        if (start) begin
+            if (contador < TEMPO_AQUECIMENTO) begin
+                contador <= contador + 1;      // Incrementa o contador
+                aquecimento <= 1'b1;           // Mantém o aquecimento ativo
+            end else begin
+                aquecimento <= 1'b0;           // Desativa o aquecimento quando o tempo for atingido
+            end
+        end else begin
+            contador <= 0;                      // Reinicia o contador quando 'start' é desativado
+            aquecimento <= 1'b0;                // Desativa o aquecimento
+        end
+    end
+endmodule

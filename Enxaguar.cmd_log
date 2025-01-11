@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/Enxaguar.v -lang verilog -prj MAQUINALAVAR -o Enxaguar.spl -module Enxaguar -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Enxaguar.spl /home/ise/MAQUINALAVAR/Enxaguar.sym 

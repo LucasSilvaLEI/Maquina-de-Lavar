@@ -1,0 +1,2 @@
+vhdtdtfi -lib work /home/ise/MAQUINALAVAR/MAquina_Lavar.v -lang verilog -prj MAQUINALAVAR -o MAquina_Lavar.spl -module MAquina_Lavar -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 MAquina_Lavar.spl /home/ise/MAQUINALAVAR/MAquina_Lavar.sym 

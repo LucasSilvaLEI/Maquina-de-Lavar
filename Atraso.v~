@@ -1,0 +1,22 @@
+`timescale 1ns / 1ps
+
+module atraso_inicio(
+    input wire clk,
+    input wire iniciar,      // Botão iniciar
+    input wire [2:0] atraso, // Valor de atraso (em minutos, por exemplo)
+    output reg pronto        // Sinal de atraso concluído
+);
+    reg [2:0] contador;  // Contador para o atraso
+     always @(posedge clk) begin
+        if (iniciar) begin
+            if (contador < atraso) begin
+                contador <= contador + 1;  // Aumenta o contador
+                pronto <= 0;  // Não está pronto até que o atraso termine
+            end else begin
+                pronto <= 1;  // Atraso concluído
+            end
+        end else begin
+            pronto <= 0;  // Desativa o sinal pronto quando o botão não está pressionado
+        end
+    end
+endmodule

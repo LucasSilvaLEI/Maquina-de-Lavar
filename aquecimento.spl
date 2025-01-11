@@ -1,0 +1,9 @@
+[Inputs]
+clock
+start
+[Outputs]
+aquecimento
+[BiDir]
+[ATTRIBUTES]
+VeriModel aquecimento
+

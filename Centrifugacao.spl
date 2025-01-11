@@ -1,0 +1,9 @@
+[Inputs]
+clock
+start
+[Outputs]
+centrifugacao_ativa
+[BiDir]
+[ATTRIBUTES]
+VeriModel Centrifugacao
+

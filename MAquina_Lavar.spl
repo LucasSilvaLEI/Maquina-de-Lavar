@@ -1,0 +1,19 @@
+[Inputs]
+clk
+reset
+botao_iniciar
+energia
+=valor_atraso[2:0]=
+[Outputs]
+porta
+entrada_agua
+aquecimento
+detergente
+lavagem
+enxaguar
+centrifugacao
+=estado[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MAquina_Lavar
+

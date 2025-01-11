@@ -1,0 +1,10 @@
+[Inputs]
+clock
+start
+fim_lavagem
+[Outputs]
+porta_fechada
+[BiDir]
+[ATTRIBUTES]
+VeriModel Porta
+

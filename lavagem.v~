@@ -1,0 +1,24 @@
+`timescale 1ns / 1ps
+
+module lavagem(
+    input wire clock,
+    input wire start,
+    output reg lavagem_ativa
+);
+    parameter TEMPO_LAVAGEM = 5;  // Tempo para o ciclo de lavagem
+    reg [2:0] contador;          // Contador para o tempo de lavagem
+	 
+    always @(posedge clock) begin
+        if (start) begin
+            if (contador < TEMPO_LAVAGEM) begin
+                contador <= contador + 1;   // Incrementa o contador
+                lavagem_ativa <= 1'b1;       // Mantém a lavagem ativa
+            end else begin
+                lavagem_ativa <= 1'b0;       // Desativa a lavagem após o tempo
+            end
+        end else begin
+            contador <= 0;                    // Reinicia o contador quando 'start' for desativado
+            lavagem_ativa <= 1'b0;            // Desativa a lavagem
+        end
+    end
+endmodule

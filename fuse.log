@@ -1,0 +1,39 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/MAQUINALAVAR/TESTE_isim_beh.exe -prj /home/ise/MAQUINALAVAR/TESTE_beh.prj work.TESTE work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Porta.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Lavagem.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Enxaguar.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Entrada_Agua.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Detergenete.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Centrifugaao.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Botao.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Aquecimento.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/Maquinadelavar.v" into library work
+Analyzing Verilog file "/home/ise/MAQUINALAVAR/TESTE.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/ise/MAQUINALAVAR/TESTE.v" Line 18: Port estado_atual is not connected to this instance
+WARNING:HDLCompiler:329 - "/home/ise/MAQUINALAVAR/Maquinadelavar.v" Line 80: Target <porta_fechada> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Fuse Memory Usage: 94920 KB
+Fuse CPU Usage: 1020 ms
+Compiling module Botao
+Compiling module Detergente
+Compiling module aquecimento
+Compiling module centrifugacao
+Compiling module entrada_agua
+Compiling module enxaguar
+Compiling module lavagem
+Compiling module porta
+Compiling module MAquina_Lavar
+Compiling module TESTE
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 11 Verilog Units
+Built simulation executable /home/ise/MAQUINALAVAR/TESTE_isim_beh.exe
+Fuse Memory Usage: 98124 KB
+Fuse CPU Usage: 1060 ms
+GCC CPU Usage: 910 ms

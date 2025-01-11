@@ -1,0 +1,11 @@
+[Inputs]
+clk
+reset
+energia
+estado
+estado_registrado
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel Protecao
+

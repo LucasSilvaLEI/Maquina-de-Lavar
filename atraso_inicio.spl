@@ -1,0 +1,11 @@
+[Inputs]
+clk
+reset
+iniciar
+=atraso[2:0]=
+[Outputs]
+pronto
+[BiDir]
+[ATTRIBUTES]
+VeriModel atraso_inicio
+

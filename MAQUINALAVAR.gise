@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="MAQUINALAVAR.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Botao.spl"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Centrifugacao.spl"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Detergente.spl"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Entrada_Agua.spl"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Entrada_Relogio.spl"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Enxaguar.spl"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="MAquina_Lavar.spl"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MAquina_Lavar_Sim_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MAquina_Lavar_Sim_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MAquina_Lavar_Sim_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MAquina_Lavar_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MAquina_Lavar_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Maquina_simulacao_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Maquina_simulacao_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Maquina_simulacao_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Porta.spl"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Protecao.spl"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SIMULACAO_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SIMULACAO_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SIMULACAO_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SIMULACAO_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Simulacao_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Simulacao_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Simulacao_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TESTE_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TESTE_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TESTE_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TESTE_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="aquecimento.spl"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="atraso_inicio.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="atraso_inicio.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="atraso_inicio_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="lavagem.spl"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="maquina_de_lavar_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="porta_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1730791485" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1730791485">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1730846825" xil_pn:in_ck="-7000586594011014554" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1730846824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Aquecimento.v"/>
+      <outfile xil_pn:name="Botao.v"/>
+      <outfile xil_pn:name="Centrifugaao.v"/>
+      <outfile xil_pn:name="Detergenete.v"/>
+      <outfile xil_pn:name="Entrada_Agua.v"/>
+      <outfile xil_pn:name="Enxaguar.v"/>
+      <outfile xil_pn:name="Lavagem.v"/>
+      <outfile xil_pn:name="Maquinadelavar.v"/>
+      <outfile xil_pn:name="Porta.v"/>
+      <outfile xil_pn:name="TESTE.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1730838690" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7136980397349087556" xil_pn:start_ts="1730838690">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1730838690" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6405014109161544410" xil_pn:start_ts="1730838690">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1730827325" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1651423607767495330" xil_pn:start_ts="1730827325">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1730846825" xil_pn:in_ck="-7000586594011014554" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1730846825">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Aquecimento.v"/>
+      <outfile xil_pn:name="Botao.v"/>
+      <outfile xil_pn:name="Centrifugaao.v"/>
+      <outfile xil_pn:name="Detergenete.v"/>
+      <outfile xil_pn:name="Entrada_Agua.v"/>
+      <outfile xil_pn:name="Enxaguar.v"/>
+      <outfile xil_pn:name="Lavagem.v"/>
+      <outfile xil_pn:name="Maquinadelavar.v"/>
+      <outfile xil_pn:name="Porta.v"/>
+      <outfile xil_pn:name="TESTE.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1730846828" xil_pn:in_ck="-7000586594011014554" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6804801620045030969" xil_pn:start_ts="1730846825">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TESTE_beh.prj"/>
+      <outfile xil_pn:name="TESTE_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1730846829" xil_pn:in_ck="6573058824826389896" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1408285992848641718" xil_pn:start_ts="1730846828">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TESTE_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,4 @@
+verilog work "Atraso.v"
+verilog work "MAquina_Lavar.v"
+verilog work "SIMULACAO.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

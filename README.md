@@ -1,4 +1,4 @@
-Esse projeto simula o funcionamento de uma máquina de lavar roupa utilizando Verilog, implementado no ISE Xilinx. Vamos analisar os principais componentes e objetivos desse projeto:
+Esse projeto simula o funcionamento de uma máquina de lavar roupa utilizando Verilog, implementado no ISE Xilinx.
 
 Objetivo Principal:
 O objetivo é criar uma máquina de lavar virtual utilizando uma máquina de estados finita (FSM) para controlar o comportamento do sistema, que inclui estados como lavagem, enxágue, e centrifugação. A máquina de estados é controlada por entradas, como os botões de iniciar, pausar, e resetar.
